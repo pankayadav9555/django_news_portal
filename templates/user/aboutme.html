@@ -1,0 +1,38 @@
+ {% extends 'base.html'%}
+ {% load static %}
+ {% block childpage %}
+  <div class="text-center"><b class="txt-mycolor fs-3">Profile</b><br>I'm a creative Web Developer</br></div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4  mt-5">
+           <h1 class="txt-mycolor fs-4"><u>About Me</u></h1><br/>
+           <p style="text-align:justify;margin-left:10px;margin-top:10px; line-height:28px;"><i class="fa-solid fa-circle-right"></i> I am web deweloper.<br/>
+           <i class="fa-solid fa-circle-right"></i> I am a junior programmer with less but good knowledge of front-end techniques.<br/>
+              <i class="fa-solid fa-circle-right"></i> I am doing diploma in Computer Science and Engineering.<br>
+              <i class="fa-solid fa-circle-right"></i> And this is my first
+               website.
+           </p>
+        </div>
+        <div class="col-sm-4 mt-5">
+            <img src="{% static 'images/pankaj.jpg'%}" height="100px;" style="border-radius:90px;margin-left:70px;"/><br/><p style="margin-left:90px;">Pankaj yadav</p><br/>
+            <br/><br/><br/><br/>
+            <a href="https://www.facebook.com/" style="text-decoration:none;margin-left:90px;margin-top:150px;"> <i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" style="text-decoration:none"><i class="fa-brands fa-instagram"></i></a>
+           <a href="https://www.youtube.com/" style="text-decoration:none"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://web.whatsapp.com/" style="text-decoration:none"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/" style="text-decoration:none"> <i class="fa-brands fa-twiter"></i></a>
+            <a href="https://web.telegram.org/k/" style="text-decoration:none"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <div class="col-sm-4 mt-5">
+            <h1 class="txt-mycolor fs-4"><u>Details</u></h1>
+            <p style="margin-top:22px;line-height:50px;"><b class="txt-mycolor fs-5">Name</b> : Pankaj yadav<br/>
+            <b class="txt-mycolor fs-5">Age</b> : 21<br/>
+                <b class="txt-mycolor fs-5">Location</b> : Techpile Technology Pvt Ltd, Vikash Nagar secter-2, Lucknow
+            </p>
+
+        </div>
+    </div>
+</div>
+
+          {% endblock %}
