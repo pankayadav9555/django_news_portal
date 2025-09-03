@@ -53,12 +53,10 @@ cd your-repo-name
 Make sure Django is installed
 
 bash
-Copy code
 pip install django
 Run the Django server
 
 bash
-Copy code
 python manage.py runserver
 Open in your browser:
 
