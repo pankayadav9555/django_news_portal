@@ -1,70 +1,74 @@
-# 📰 Media24x7 - News Portal Landing Page  
+# 📰 Media24x7 - News Portal
 
-This is a **responsive landing page** for a News & Media portal (**Media24x7**), built with **Django templates, Bootstrap, and FontAwesome**.  
-The website provides sections for news, videos, jobs, about, and contact, along with a professional footer and social media integration.  
+Media24x7 is a dynamic news portal web application developed using Django and Python. It allows users to browse the latest news, explore category-wise and city-wise news, watch video news, and search for news content.
 
----
+## 🚀 Live Demo
 
-## 🚀 Live Demo  
-🔗 [View Website Live](https://your-github-username.github.io/your-repo-name/)  
+https://django-news-portal-mxca.vercel.app
 
----
+## ✨ Features
 
-## 📌 Features  
-- ✅ Responsive navigation bar with multiple sections (Home, News, Videos, Jobs, About, Contact, Login)  
-- ✅ Top bar with **email, phone, and quick access buttons**  
-- ✅ Integrated **social media icons** with hover effects  
-- ✅ Professional **footer with categories, useful links, about us, and contact info**  
-- ✅ Built with **Bootstrap & FontAwesome** for modern design  
-- ✅ Ready for **Django template rendering** using `{% block %}` and `{% static %}`  
+- Latest News
+- Category-wise News
+- City-wise News
+- Video News
+- Jobs Section
+- News Search
+- Contact Us Form
+- Admin Panel
+- Responsive Design
+- Dynamic News Management
 
----
+## 🛠️ Technologies Used
 
-## 🛠️ Technologies Used  
-- **Django Template Engine**  
-- **HTML5**  
-- **CSS3**  
-- **Bootstrap 5**  
-- **FontAwesome Icons**  
+### Frontend
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
 
----
+### Backend
+- Python
+- Django
 
-## 📂 Folder Structure  
+### Database
+- SQLite
+
+### Deployment
+- Vercel
+- GitHub
+
+## 📂 Main Functionalities
+
+### 📰 News
+Users can view the latest news and browse news according to different categories and cities.
+
+### 🎥 Video News
+The portal provides video news using embedded YouTube videos.
+
+### 💼 Jobs
+Users can view available job-related posts.
+
+### 🔎 Search
+Users can search and filter news content.
+
+### 📩 Contact Us
+Users can submit their name, email, mobile number, and message through the contact form.
+
+### 🔐 Admin Panel
+The Django Admin Panel allows administrators to manage:
+
+- News
+- Categories
+- Cities
+- Video News
+- Jobs
+- Sliders
+- Contact Information
+
+## ⚙️ Installation
+
+Clone the repository:
+
 ```bash
-├── templates/ 
-│   └── base.html        # Main template (this file)
-├── static/
-│   ├── css/             # Bootstrap & custom styles
-│   ├── js/              # Bootstrap bundle
-│   ├── images/          # Images used in footer/logo
-│   └── fonts/           # FontAwesome
-├── manage.py            # Django project entry
-└── README.md            # Documentation
-⚙️ Installation & Setup
-Clone this repository
-
-bash
-git clone https://github.com/your-github-username/your-repo-name.git
-Navigate to the project folder
-
-bash
-
-cd your-repo-name
-Make sure Django is installed
-
-bash
-pip install django
-Run the Django server
-
-bash
-python manage.py runserver
-Open in your browser:
-
-cpp
-http://127.0.0.1:8000/
-📬 Contact
-Developer: Pankaj Yadav
-
-Email: py889731@gmail.com
-
-LinkedIn: linkedin.com/in/pankaj-yadav
+git clone https://github.com/pankayadav9555/django_news_portal.git
